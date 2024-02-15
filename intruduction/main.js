@@ -1,1 +1,1 @@
-alert("hello Gays:)");
+console.log("Muhaemin");
