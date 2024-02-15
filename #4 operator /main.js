@@ -19,8 +19,8 @@ console.log(aString === aNumber); //false, karena membandingkan 2 nilai + tipe d
 let x = 10;
 let y = 12;
 // AND (&&) Operator
-console.log(x < y && y > 10);
-console.log(x > 12 && 12 < 10);
+console.log(x < y && y > 10); //output true && true -> true
+console.log(x > 5 && 12 > 10); //output true && treu -> true
 // OR (||) Operator
 console.log(x > 6 || y < 19); //true || true -> true
 console.log(10 > y || 10 < 12); //false || true -> false
