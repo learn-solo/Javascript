@@ -14,5 +14,5 @@ console.log(user);
 user.hairColor = "lightblue";
 console.log(user);
 // menghapus property
-delete user.kota;
+delete user.nama;
 console.log(user);
