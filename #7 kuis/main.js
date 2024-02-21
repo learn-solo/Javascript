@@ -19,15 +19,15 @@ console.log(isMarried);
 
 /**
  * Buatlah logika if untuk mengevaluasi nilai score dengan ketentuan:
- *  1. Jika score bernilai 90 atau lebih
+ *  1. Jika nilai score lebih atau sama dengan 90
  *      - Isi variabel result dengan nilai: 'Selamat! Anda mendapatkan nilai A.'
- *  2. Jika score bernilai 80 hingga 89
+ *  2. Jika nilai score ada di antara 80 hingga 89
  *      - Isi variabel result dengan nilai: 'Anda mendapatkan nilai B.'
- *  3. Jika score bernilai 70 hingga 79
+ *  3. Jika nilai score ada di antara 70 hingga 79
  *      - Isi variabel result dengan nilai: 'Anda mendapatkan nilai C.'
- *  4. Jika score bernilai 60 hingga 69:
+ *  4. Jika nilai score ada di antara 60 hingga 69:
  *      - Isi variabel result dengan nilai: 'Anda mendapatkan nilai D.'
- *  5. Jika score bernilai di bawah 60:
+ *  5. Jika nilai score di bawah 60:
  *      - Isi variabel result dengan nilai: 'Anda mendapatkan nilai E.'
  *
  *
@@ -42,23 +42,25 @@ function scoreChecker(score) {
 
   // TODO
   if (score >= 90) {
-    result("Selamat! Anda mendapatkan nilai A");
-  } else if (score > 79 && score < 90) {
-    result("Selamat! Anda mendapatkan nilai B");
-  } else if (score > 69 && score < 80) {
-    result("Selamat! Anda mendapatkan nilai C");
-  } else if (score > 59 && score < 70) {
-    result("Selamat! Anda mendapatkan nilai D");
+    result = "Selamat! Anda mendapatkan nilai A.";
+  } else if (score >= 79 && score <= 90) {
+    result = "Anda mendapatkan nilai B.";
+  } else if (score >= 70) {
+    result = "Anda mendapatkan nilai C.";
+  } else if (score >= 60) {
+    result = "Anda mendapatkan nilai D.";
   } else {
-    result("Selamat! Anda mendapatkan nilai E");
+    result = "Anda mendapatkan nilai E.";
   }
 
   // Jangan hapus kode ini
   return result;
 }
-console.log(scoreChecker(100));
-
+console.log(scoreChecker(80));
+console.log(scoreChecker(50));
+console.log(scoreChecker(60));
+console.log(scoreChecker(90));
 /**
- * Jangan hapus kode di bawah ini
+ * Hiraukan kode di bawah ini
  */
 module.exports = scoreChecker;
