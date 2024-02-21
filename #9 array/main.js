@@ -33,3 +33,9 @@ console.log(myArray);
 // SPLICE() -> menghapus data + element
 myArray.splice(2.1); //menghapus dari index 2 sebanyak 1 element
 console.log(myArray);
+
+// SPLICE() -> menambahkan elemen pada array dengan memberikan argument ke-3
+const week = ["minggu", "selasa", "rabu"];
+console.log("sebelum di splice", week);
+week.splice(1, 0, "senin");
+console.log("sesudah di splice", week);
