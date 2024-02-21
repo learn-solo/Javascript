@@ -8,8 +8,11 @@ console.log(`halo nama saya ${user.nama}, saya berasal dari kota ${user.kota}`);
 console.log(`dan umur saya adalah ${user.umur}`);
 // untuk merubah nilai property gunakan tanda (=)
 user.nama = "Paduka Raja";
-user[umur] = 22;
+user["umur"] = 22;
 console.log(user);
 // jika property yang di panggil tidak ada, maka property tersebut akan ditambahkan.
 user.hairColor = "lightblue";
+console.log(user);
+// menghapus property
+delete user.kota;
 console.log(user);
