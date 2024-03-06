@@ -1,9 +1,21 @@
+// destructuring object ES6 menggunakan object literal ({})
 const profile = {
-  firtName: "muhaemin",
+  firsName: "muhaemin",
   lastName: "iskandar",
-  age: 26,
+  age: 25,
 };
-const firtName = profile.firtName;
-const lastName = profile.lastName;
-const age = profile.age;
-console.log(firtName, lastName, age);
+const { firsName, lastName, age } = profile;
+console.log(firsName, lastName, age);
+
+// destructuring assigment
+const user = {
+  nama: "super user",
+  email: "super@gmail.com",
+  NIM: 20312035,
+};
+let nama = "admin";
+let email = "admin@gmail.com";
+// menginisialisasi nilai baru melalui destructuring object
+({ nama, email } = user);
+console.log(nama);
+console.log(email);
