@@ -17,3 +17,9 @@ console.log(allFavorite);
 // Sesudah
 const allOther = [...favorite, ...other];
 console.log(allOther);
+
+// Spread operator juga bisa digunakan untuk object literals
+let user1 = { firtName: "muhaemin", age: 20 };
+let user2 = { lastName: "tikukuruk", gender: "M" };
+let allUser = { ...user1, ...user2 };
+console.log(allUser);
