@@ -1,14 +1,19 @@
-/**
- untuk membantu pengelolaan array menjadi lebih mudah
- */
-const favorites = ["seafood", "nugget", "soup", "salad"];
-console.log(favorites);
-// output: [ 'Seafood', 'Salad', 'Nugget', 'Soup' ]
+// Belajar spread operator
+// Sebelum menggunakan spread operator
+const favorite = ["seafood", "salad", "nugget", "soup"];
+console.log(favorite);
 
-// SPREAD OPERATOR
-console.log(...favorites);
-//output: Seafood Salad Nugget Soup
+// setelah menggunakan spread operator
+console.log(...favorite);
 
-const other = ["cake", "pie", "donut"];
-const allFavorites = [favorites, other];
-console.log(allFavorites);
+console.log("=========================================");
+
+// Spread operator juga bisa untuk menggabungkan array
+// Sebelum
+const other = ["nasi goreng", "pizza", "keripik"];
+const allFavorite = [favorite, other];
+console.log(allFavorite);
+
+// Sesudah
+const allOther = [...favorite, ...other];
+console.log(allOther);
