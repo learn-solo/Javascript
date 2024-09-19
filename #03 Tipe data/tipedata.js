@@ -11,7 +11,7 @@ let b = 12.5;
 console.log(typeof b);
 
 // program untuk operator aritmatika
-let angkaSatu = 10;
+let angkaSatu = 10
 let angkaDua = 15;
 
 console.log(angkaSatu + angkaDua);
