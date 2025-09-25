@@ -29,6 +29,4 @@ Folder ini berisi materi pengantar JavaScript yang dirancang untuk membantu pese
 JavaScript adalah fondasi penting dalam pengembangan web, baik frontend maupun backend (misalnya dengan Node.js).  
 Pemahaman dasar ini akan sangat membantu saat melanjutkan ke topik **Back-End Development dengan AWS**.
 
----
-
-Selamat belajar dan semangat menyelesaikan pelatihan! 💪
+>Selamat belajar dan semangat menyelesaikan pelatihan! 💪
