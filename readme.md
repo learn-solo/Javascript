@@ -21,7 +21,7 @@ Folder ini berisi materi pengantar JavaScript yang dirancang untuk membantu pese
    - Lewat browser console (Copy-paste langsung)
    - Menggunakan Node.js (jika sudah diinstal):
      ```bash
-     node nama_file.js
+     node nama file.js
      ```
 
 ### 🧠 Catatan
