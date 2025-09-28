@@ -22,11 +22,3 @@ Folder ini berisi materi pengantar JavaScript yang dirancang untuk membantu pese
    - Menggunakan Node.js (jika sudah diinstal):
      ```bash
      node nama file.js
-     ```
-
-### 🧠 Catatan
-
-JavaScript adalah fondasi penting dalam pengembangan web, baik frontend maupun backend (misalnya dengan Node.js).  
-Pemahaman dasar ini akan sangat membantu saat melanjutkan ke topik **Back-End Development dengan AWS**.
-
->Selamat belajar dan semangat menyelesaikan pelatihan! 💪
