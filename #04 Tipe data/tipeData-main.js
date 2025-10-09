@@ -22,5 +22,23 @@ let angkaBoolean = 10 > 3;
 console.log(angkaBoolean); // True karena 10 lebih besar dari 3.
 
 // NILAI KOSONG = keduanya digunakan untuk menunjukan ketiadaan nilai (the absence of somthing);
-// Null 
-// Undefined
+// Null = menunjukan nilai tidak ada 
+let message = null;
+console.log(message);
+
+// Undefined = mendeklarasikan variable tampa menginisialisasi dengan nilai apapun
+let menu; 
+console.log(menu);
+
+
+console.log("===== Mengubah Nilai Anter Tipe Data ======");
+// Mengubah tipe data ke string
+// 1. menggunakan fungsi String()
+const number = 124;
+const strNumber = String(number);
+console.log(typeof(strNumber));
+
+// 2. menggunakan Method to.String()
+const boolean1 = false;
+const strBoolean1 = toString();
+console.log(typeof(strBoolean1));
